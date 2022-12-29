@@ -31,14 +31,14 @@ else
 }
 }
 
-Console.WriteLine("Vvedite piatiznachnoe chislo  (Number)");
-
-int Number = Convert.ToInt32(Console.ReadLine());
-if(MethodP (int Number))
+Console.WriteLine("Vvedite piatiznachnoe chislo: ");
+int n = Convert.ToInt32(Console.ReadLine());
+if(MethodP (n))
 {
     Console.WriteLine("Da");
 }
 else
+
 {
     Console.WriteLine("Net");
 }
